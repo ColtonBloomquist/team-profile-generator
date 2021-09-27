@@ -1,12 +1,10 @@
-import { expect } from "@jest/globals";
-import { test } from "picomatch";
-import { exp } from "prelude-ls";
-import Employee from "../lib/Employee";
+const Manager = require("../lib/Manager");
 
-test("creates employee object", () => {
-  const employee = new Employee("Dave", 5, "dave@gmail.com");
+test("creates manager object", () => {
+  const manager = new Manager("Dave", 5, "dave@gmail.com", 15);
 
-  expect(employee.name).toEqual(expect.any(String));
-  expect(exployee.id).toEqual(expect.any(Number));
-  expect(employee.email).toEqual(expect.any(String));
+  expect(manager.name).toEqual(expect.any(String));
+  expect(manager.id).toEqual(expect.any(Number));
+  expect(manager.email).toEqual(expect.any(String));
+  expect(manager.officeNumber).toEqual(expect.any(Number));
 });

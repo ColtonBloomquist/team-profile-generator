@@ -1,8 +1,7 @@
-import { expect } from "@jest/globals";
-import exp from "constants";
-import Engineer from "../lib/Engineer";
+const { expect } = require("@jest/globals");
+const Engineer = require("../lib/Engineer");
 
-test("creates employee object", () => {
+test("creates engineer object", () => {
   const engineer = new Engineer(
     "Dave",
     5,
@@ -12,4 +11,5 @@ test("creates employee object", () => {
 
   expect(engineer.email).toEqual(expect.any(String));
   expect(engineer.github).toEqual(expect.any(String));
+  expect(engineer.getRole()).toEqual("Engineer");
 });
