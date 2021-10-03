@@ -44,6 +44,6 @@
   https://watch.screencastify.com/v/iu7ZN0BeZazZjQYLpUZS
   
   
-  # Sample README
+  # Sample Image
   
 ![Screenshot (43)](https://user-images.githubusercontent.com/86384237/135774559-526dd4bc-a1dd-4473-a877-899e7f9846b6.png)
